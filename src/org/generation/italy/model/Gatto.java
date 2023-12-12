@@ -9,7 +9,7 @@ public class Gatto extends AnimaleDomestico {
 	}
 	
 	public String faiFusa(){
-		return "prprprprprpr";		
+		return "prprprprprpr";	
 	}
 	
 	@Override
@@ -26,3 +26,4 @@ public class Gatto extends AnimaleDomestico {
 	public String toString() {		//sovrascrivo (Override) il toString() di Object
 	return "Gatto [razza= " + razza + ", nome= " + nome + ", eteroCromiaOcchi= " + eteroCromiaOcchi +"]";
 	}
+}
