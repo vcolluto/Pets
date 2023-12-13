@@ -12,6 +12,8 @@ public class Cane extends AnimaleDomestico {
 public String faiVerso(){
     return "Bau Bau!!";
 }
+
+//Override: "cambia" in base a chi lo chiama (il modo è lo stesso, cambia la classe)
 @Override 
 public String mangia(){
     return "Mangio crocchette con carne di manzo";
@@ -20,6 +22,10 @@ public String mangia(){
 @Override
 public String toString() {		//sovrascrivo (Override) il toString() di Object
 	return "Cane [razza= " + razza + ", nome= " + nome + ", museruola= " + museruolaObbligatoria +"]";
+}
+
+public boolean isMuseruolaObbligatoria() {
+	return museruolaObbligatoria;
 }
 
 }

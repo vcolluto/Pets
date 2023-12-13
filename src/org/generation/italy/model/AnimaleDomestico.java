@@ -18,8 +18,13 @@ public String mangia(){
     return "mangio del cibo";
 }
 
+//Overload: "cambia" in base a come lo chiamo
 public String mangia(String cibo){ //sovraccarico (overload) il metodo mangia
     return "mangio " + cibo;
+}
+
+public String mangia(String cibo, int grammi){ //sovraccarico (overload) il metodo mangia
+    return "mangio " +grammi +" gr di "+ cibo;
 }
 
 @Override
